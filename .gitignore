@@ -1,0 +1,36 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ===== Virtual env =====
+.venv/
+venv/
+env/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Tests / cache =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Env / secrets =====
+.env
+
+# ===== Logs =====
+*.log
+
+# ===== Docker / volumes =====
+pgdata/
