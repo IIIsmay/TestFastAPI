@@ -16,11 +16,11 @@ git clone https://github.com/IIIsmay/TestFastAPI.git
 
 copy .env.example .env
 
-##Запустить проект:
+## Запустить проект:
 
 docker compose up --build
 
-##Тесты:
+## Тесты:
 
 docker compose exec api pytest
 
